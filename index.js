@@ -19,6 +19,9 @@ Do the following:
 
    HINT: no function required
 */
+const votingAge = 21
+console.log(votingAge>=18)
+
 
 
 
@@ -33,9 +36,12 @@ Do the following:
 
    HINT: no function required
 */
-
-
-
+let firstThing = 21
+let secondThing = 12
+console.log (firstThing <= secondThing)
+if(firstThing <= secondThing){firstThing=12}
+else{secondThing=13}
+console.log (secondThing) 
 
 
 /*
@@ -48,7 +54,9 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+let firstValue = "1999"
+firstValue = 1999
+console.log (firstValue)
 
 
 
@@ -61,10 +69,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
-}
+function multiply(a, b){
+  return a* b
 
+
+}
+console.log (multiply(6,7))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
@@ -77,10 +87,11 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
-}
+function dogYears(age){
+ return age*7 
 
+}
+console.log (dogYears(5))
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 3 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀*/
